@@ -1,0 +1,16 @@
+<Context>
+
+    <Resource name="mvc294" auth="Container" type="javax.sql.DataSource"
+              initialSize="1" maxTotal="3" minIdle="1" maxIdle="3"
+              validationQuery="select now()" validationQueryTimeout="5"
+              testWhileIdle="true" testOnBorrow="true" testOnReturn="false"
+              timeBetweenEvictionRunsMillis="30000" minEvictableIdleTimeMillis="60000"
+              removeAbandonedOnBorrow="true" removeAbandonedTimeout="300" logAbandoned="false"
+              poolPreparedStatements="true"
+              username="mvc294" password="123456789"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/mvc294?autoReconnect=true"
+              connectionProperties="useUnicode=yes;characterEncoding=utf8;useJDBCCompliantTimezoneShift=true;useLegacyDatetimeCode=false;serverTimezone=UTC"
+    />
+
+</Context>

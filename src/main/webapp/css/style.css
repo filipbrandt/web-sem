@@ -1,0 +1,33 @@
+.jumbotron {
+    background-image: url("../img/index-carusel-black.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    min-height: 500px
+}
+
+.table{
+    margin: auto;
+    width: 90%
+}
+
+.h1{
+    margin-bottom: 10px;
+}
+
+.h2{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.carousel{
+    width: 50%;
+    margin: auto;
+}
+
+/*.card{*/
+/*    width: 50%;*/
+/*    margin: auto;*/
+/*}*/
